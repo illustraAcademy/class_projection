@@ -1,0 +1,299 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Salsa', cursive;
+}
+
+span {
+    color: #15BDFF;
+}
+
+@media (min-width: 1px) and (max-width: 720px) {
+
+    body {
+        display: grid;
+        background-image: url("../images/one.png");
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr 1fr 1fr 2fr 1fr);
+        gap: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-area: 1/1/2/-1;
+
+    }
+
+    .center-content {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-one {
+        display: flex;
+        grid-area: 2/1/2/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-two {
+        display: flex;
+        grid-area: 3/1/4/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-three {
+        display: flex;
+        grid-area: 4/1/5/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        padding: 10px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .navigation-section {
+        grid-area: 5/1/6/3;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
+
+    body {
+        display: grid;
+        background-image: url("../images/one.png");
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr 1fr 1fr 2fr 1fr);
+        gap: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1/1/2/-1;
+    }
+
+    .center-content {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Salsa', cursive;
+        font-size: x-large;
+        border-radius: 15px;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-one {
+        display: flex;
+        grid-area: 2/1/2/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-two {
+        display: flex;
+        grid-area: 3/1/4/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-three {
+        display: flex;
+        grid-area: 4/1/5/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .navigation-section {
+        grid-area: 5/1/6/3;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (min-width: 1081px) {
+
+    body {
+        display: grid;
+        background-image: url("../images/one.png");
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr 1fr 1fr 2fr 1fr);
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1/1/2/-1;
+    }
+
+    .center-content {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Salsa', cursive;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-one {
+        display: flex;
+        grid-area: 2/1/2/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-two {
+        display: flex;
+        grid-area: 3/1/4/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .text-row-three {
+        display: flex;
+        grid-area: 4/1/5/3;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        animation-name: background-color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .navigation-section {
+        grid-area: 5/1/6/3;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
+
+@keyframes background-color {
+
+    0% {
+        background-color: #15BDFF;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #15BDFF;
+    }
+}
