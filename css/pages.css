@@ -14,7 +14,7 @@ span {
         display: grid;
         background-image: url("../images/one.png");
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr 1fr 1fr 2fr 1fr);
+        grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
         gap: 5px;
     }
 
@@ -106,7 +106,7 @@ span {
         display: grid;
         background-image: url("../images/one.png");
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr 1fr 1fr 2fr 1fr);
+        grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
         gap: 10px;
     }
 
@@ -197,7 +197,7 @@ span {
         display: grid;
         background-image: url("../images/one.png");
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr 1fr 1fr 2fr 1fr);
+        grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
         gap: 20px;
     }
 
