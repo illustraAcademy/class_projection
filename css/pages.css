@@ -8,6 +8,12 @@ span {
     color: #15BDFF;
 }
 
+#chosen {
+    animation-name: background-color-two;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
 @media (min-width: 1px) and (max-width: 720px) {
 
     body {
@@ -37,10 +43,10 @@ span {
         padding: 10px;
         align-items: center;
         text-align: center;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         font-weight: 900;
         border-radius: 15px;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -51,11 +57,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 20px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -66,11 +72,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 20px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -82,11 +88,11 @@ span {
         justify-content: center;
         border-radius: 15px;
         padding: 10px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 15px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -128,11 +134,10 @@ span {
         padding: 15px;
         align-items: center;
         text-align: center;
-        font-family: 'Gloria Hallelujah', cursive;
-        font-family: 'Salsa', cursive;
+        font-family: 'Forum', serif;
         font-size: x-large;
         border-radius: 15px;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -143,11 +148,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 35px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -158,11 +163,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 35px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -173,11 +178,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 20px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -219,12 +224,11 @@ span {
         padding: 20px;
         align-items: center;
         text-align: center;
-        font-family: 'Gloria Hallelujah', cursive;
-        font-family: 'Salsa', cursive;
+        font-family: 'Forum', serif;
         font-size: xx-large;
         font-weight: 900;
         border-radius: 15px;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -235,11 +239,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 45px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -250,11 +254,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 45px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -265,11 +269,11 @@ span {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        font-family: 'Gloria Hallelujah', cursive;
+        font-family: 'Forum', serif;
         text-align: center;
         font-size: 35px;
         font-weight: 600;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
     }
@@ -283,7 +287,7 @@ span {
     }
 }
 
-@keyframes background-color {
+@keyframes background-color-one {
 
     0% {
         background-color: #15BDFF;
@@ -295,5 +299,20 @@ span {
 
     100% {
         background-color: #15BDFF;
+    }
+}
+
+@keyframes background-color-two {
+
+    0% {
+        background-color: #DC970E;
+    }
+
+    50% {
+        background-color: #DB7A0D80;
+    }
+
+    100% {
+        background-color: #DC970E;
     }
 }

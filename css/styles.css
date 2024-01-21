@@ -12,84 +12,11 @@ span {
 
     body {
         display: grid;
-        background-image: url("../images/one.png");
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        gap: 5px;
-    }
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .header {
-        display: flex;
         justify-content: center;
-        grid-area: 1/1/2/-1;
-
-    }
-
-    .center-content {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
         align-items: center;
-        text-align: center;
-        font-family: 'Gloria Hallelujah', cursive;
-        font-family: 'Salsa', cursive;
-        font-weight: 900;
-        border-radius: 15px;
-        animation-name: background-color;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-    }
-}
-
-@media (min-width: 721px) and (max-width: 1080px) {
-
-    body {
-        display: grid;
         background-image: url("../images/one.png");
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        gap: 10px;
-    }
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .header {
-        display: flex;
-        justify-content: center;
-        grid-area: 1/1/2/-1;
-    }
-
-    .center-content {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-        align-items: center;
-        text-align: center;
-        font-family: 'Gloria Hallelujah', cursive;
-        font-family: 'Salsa', cursive;
-        font-size: x-large;
-        border-radius: 15px;
-        animation-name: background-color;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-    }
-}
-
-@media (min-width: 1081px) {
-
-    body {
-        display: grid;
-        background-image: url("../images/one.png");
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr 2fr;
         gap: 20px;
     }
 
@@ -101,27 +28,170 @@ span {
     .header {
         display: flex;
         justify-content: center;
+        align-items: center;
         grid-area: 1/1/2/-1;
     }
 
-    .center-content {
-        display: flex;
+    .center-content-one {
+        display: grid;
         justify-content: center;
+        grid-area: 2/2/3/3;
         padding: 20px;
         align-items: center;
         text-align: center;
-        font-family: 'Gloria Hallelujah', cursive;
-        font-family: 'Salsa', cursive;
-        font-size: xx-large;
+        font-family: 'Forum', serif;
+        font-size: large;
         font-weight: 900;
         border-radius: 15px;
-        animation-name: background-color;
+        animation-name: background-color-one;
         animation-duration: 5s;
         animation-iteration-count: infinite;
+        height: 100px;
+        width: 250px;
+    }
+
+    .center-content-two {
+        display: grid;
+        justify-content: center;
+        grid-area: 3/2/4/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-two;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 100px;
+        width: 250px;
     }
 }
 
-@keyframes background-color {
+@media (min-width: 721px) and (max-width: 1080px) {
+
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../images/one.png");
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr 2fr;
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1/1/2/-1;
+    }
+
+    .center-content-one {
+        display: grid;
+        justify-content: center;
+        grid-area: 2/2/3/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-one;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 200px;
+        width: 500px;
+    }
+
+    .center-content-two {
+        display: grid;
+        justify-content: center;
+        grid-area: 3/2/4/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-two;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 200px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1081px) {
+
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../images/one.png");
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr 2fr;
+        gap: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1/1/2/-1;
+    }
+
+    .center-content-one {
+        display: grid;
+        justify-content: center;
+        grid-area: 2/2/3/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-one;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 200px;
+        width: 500px;
+    }
+
+    .center-content-two {
+        display: grid;
+        justify-content: center;
+        grid-area: 3/2/4/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-two;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 200px;
+        width: 500px;
+    }
+}
+
+@keyframes background-color-one {
 
     0% {
         background-color: #15BDFF;
@@ -133,5 +203,20 @@ span {
 
     100% {
         background-color: #15BDFF;
+    }
+}
+
+@keyframes background-color-two {
+
+    0% {
+        background-color: #DC970E;
+    }
+
+    50% {
+        background-color: #DB7A0D80;
+    }
+
+    100% {
+        background-color: #DC970E;
     }
 }
