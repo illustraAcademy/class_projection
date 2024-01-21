@@ -1,0 +1,349 @@
+body {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    background-image: url("../images/one.png");
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #15BDFF;
+}
+
+@media (min-width: 1px) and (max-width: 720px) {
+
+    .button-container {
+        margin: 30px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .button-top {
+        border-radius: 50%;
+        font-size: 2rem;
+        height: 65px;
+        width: 65px;
+    }
+
+    .header {
+        grid-area: 1/2/2/3;
+    }
+
+    .ice {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 2/1/3/4;
+    }
+
+    .motivation {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 3/1/4/4;
+    }
+
+    .type {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 4/1/5/4;
+    }
+
+    .listen {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 5/1/6/4;
+    }
+
+    .dictation {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 6/1/7/4;
+    }
+
+    .research {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 7/1/8/4;
+    }
+
+    .grammar {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 8/1/9/4;
+    }
+
+    .read {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 9/1/10/4;
+    }
+
+    .role {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 15px;
+        grid-area: 10/1/11/4;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
+
+    .button-container {
+        margin: 30px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .button-top {
+        border-radius: 50%;
+        font-size: 2rem;
+        height: 65px;
+        width: 65px;
+    }
+
+    .header {
+        grid-area: 1/2/2/3;
+    }
+
+    .ice {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 2/1/3/4;
+    }
+
+    .motivation {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 3/1/4/4;
+    }
+
+    .type {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 4/1/5/4;
+    }
+
+    .listen {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 5/1/6/4;
+    }
+
+    .dictation {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 6/1/7/4;
+    }
+
+    .research {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 7/1/8/4;
+    }
+
+    .grammar {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 8/1/9/4;
+    }
+
+    .read {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 9/1/10/4;
+    }
+
+    .role {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 20px;
+        grid-area: 10/1/11/4;
+    }
+}
+
+@media (min-width: 1081px) {
+
+    .button-container {
+        margin: 30px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .button-top {
+        border-radius: 50%;
+        font-size: 2rem;
+        height: 65px;
+        width: 65px;
+    }
+
+    .header {
+        grid-area: 1/2/2/3;
+    }
+
+    .ice {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 2/1/3/4;
+    }
+
+    .motivation {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 3/1/4/4;
+    }
+
+    .type {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 4/1/5/4;
+    }
+
+    .listen {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 5/1/6/4;
+    }
+
+    .dictation {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 6/1/7/4;
+    }
+
+    .research {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 7/1/8/4;
+    }
+
+    .grammar {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 8/1/9/4;
+    }
+
+    .read {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 9/1/10/4;
+    }
+
+    .role {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 4fr;
+        font-family: 'Forum', serif;
+        font-size: 25px;
+        grid-area: 10/1/11/4;
+    }
+}
