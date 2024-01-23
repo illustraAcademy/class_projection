@@ -16,7 +16,7 @@ span {
         align-items: center;
         background-image: url("../images/one.png");
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr;
         gap: 20px;
     }
 
@@ -54,6 +54,24 @@ span {
         display: grid;
         justify-content: center;
         grid-area: 3/2/4/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-two;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 100px;
+        width: 250px;
+    }
+
+    .center-content-three {
+        display: grid;
+        justify-content: center;
+        grid-area: 4/2/5/3;
         padding: 20px;
         align-items: center;
         text-align: center;
