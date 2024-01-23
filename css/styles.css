@@ -79,7 +79,7 @@ span {
         font-size: large;
         font-weight: 900;
         border-radius: 15px;
-        animation-name: background-color-two;
+        animation-name: background-color-three;
         animation-duration: 5s;
         animation-iteration-count: infinite;
         height: 100px;
@@ -146,6 +146,24 @@ span {
         height: 200px;
         width: 500px;
     }
+
+    .center-content-three {
+        display: grid;
+        justify-content: center;
+        grid-area: 4/2/5/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-three;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 200px;
+        width: 500px;
+    }
 }
 
 @media (min-width: 1081px) {
@@ -207,6 +225,24 @@ span {
         height: 200px;
         width: 500px;
     }
+
+    .center-content-three {
+        display: grid;
+        justify-content: center;
+        grid-area: 4/2/5/3;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Forum', serif;
+        font-size: xx-large;
+        font-weight: 900;
+        border-radius: 15px;
+        animation-name: background-color-three;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        height: 200px;
+        width: 500px;
+    }
 }
 
 @keyframes background-color-one {
@@ -236,5 +272,20 @@ span {
 
     100% {
         background-color: #DC970E;
+    }
+}
+
+@keyframes background-color-three {
+
+    0% {
+        background-color: #E299FF;
+    }
+
+    50% {
+        background-color: #FE98B980;
+    }
+
+    100% {
+        background-color: #E299FF;
     }
 }
